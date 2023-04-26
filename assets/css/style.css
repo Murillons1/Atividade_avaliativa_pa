@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background-color: beige;
+}
+
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:   flex-start;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.icone:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.8s
+}
+
+.menu_itens{
+    display: flex;
+    list-style: none;
+    
+
+}
+
+.menu_itens li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    
+
+
+}
+.menu_itens a:hover{
+    font-size: 1.5rem;
+    transition: 300ms;
+    color: white;
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.menu_itens img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    height: 1.2rem;
+    width: 1.2rem;
+
+}
+
+/* Body */
+
+input{
+    text-align: center;
+}
+
+
+.imgc{
+    margin: 2rem;
+}
+
+
+/* Footer */
+
+.fot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+    color: black;
+    bottom: 0%;
+    opacity: 0.8;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-color: darkgoldenrod	;
+}
+
+.fot p{
+    font-size: 2rem;
+    font-family: 'Segoe UI';
+
+}
+
+footer #resumo{
+    font-size: 1rem;
+    margin: 1rem 2rem 3rem;
+
+}
+
+footer p{
+    margin: 1rem;
+}
+
+footer .img_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .img_footer img{
+    margin: 0rem 0.5rem;
+}
+
+.fot img{
+    font-size: 5px;
+
+ }
+
+
+
